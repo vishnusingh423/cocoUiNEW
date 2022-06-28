@@ -40,7 +40,9 @@ export default function HomeScreen({navigation}) {
         padding: width * 0.048,
         height: heigh * 0.9,
       }}>
-      <StatusBar barStyle="light-content" backgroundColor="white" />
+      <StatusBar barStyle="light-content" backgroundColor="tomato"
+      animated={true} 
+      networkActivityIndicatorVisible={true} />
 
       <View style={{}}>
         <Text
